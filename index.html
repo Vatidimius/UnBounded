@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UnBounded</title>
+  <meta
+    name="description"
+    content="UnBounded."
+  >
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="intro-lock">
+  <canvas class="starfield" id="starfield" aria-hidden="true"></canvas>
+
+  <main id="top">
+    <section class="hero">
+      <div class="shell">
+        <div class="hero-inner reveal visible">
+          <h1 class="hero-title" aria-label="From minus $500,000. At 23. I will overcome this!">
+            <span class="hero-title-line">From minus $500,000</span>
+            <span class="hero-title-line">At 23</span>
+            <span class="hero-title-line hero-title-impact">I will overcome this!</span>
+          </h1>
+          <div class="hero-facts">
+            <div class="fact">
+              <span>2023</span>
+              <strong>When it started</strong>
+            </div>
+            <div class="fact">
+              <span>$100k+</span>
+              <strong>Already repaid</strong>
+            </div>
+            <div class="fact">
+              <span>$500k+</span>
+              <strong>Current total</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="shell">
+        <div class="content-column">
+          <article class="text-block reveal delay-1" id="story">
+            <div class="block-number">01</div>
+            <div class="block-body">
+              <h2>What happened</h2>
+              <p>
+                <b>In 2023, when I was 21</b>, one of my projects went negative by about <b>$300,000</b>.
+                Most of the funds involved came from <b>investors and bank loans</b>.
+                I repaid more than <b>$100,000</b> through my own income and refinancing, yet the total debt grew to over <b>$500,000</b>.
+              </p>
+            </div>
+          </article>
+
+          <section class="bridge-note reveal delay-2">
+            <blockquote class="intent-quote">
+              <p class="intent-line"><i><b>This is the result of my decisions and the challenge I’m facing.</b></i></p>
+            </blockquote>
+          </section>
+
+          <article class="text-block reveal delay-2" id="path">
+            <div class="block-number">02</div>
+            <div class="block-body">
+              <h2>What comes next</h2>
+              <p>
+                I keep moving forward. I continue to create, build meaningful new projects, and stay true to what matters most to me: <b><u>honesty</u></b> and <b><u>clarity</u></b>.
+                Every day I take steps toward resolving this situation, but I am not able to be as effective as I could be because the weight of debt takes away a lot of energy.
+              </p>
+              <p class="intent-line"><b>My goal is to be completely free of financial obligations in 2026.</b></p>
+            </div>
+          </article>
+
+          <article class="text-block reveal delay-3" id="support">
+            <div class="block-number">03</div>
+            <div class="block-body">
+              <h2>Optional Support</h2>
+              <p>If this resonates with you, there is a way to support me here.</p>
+              <p>That support would help me move toward <b>freedom faster and show up in my new work with more clarity, energy, and focus</b>.</p>
+            </div>
+          </article>
+
+          <section class="support-panel reveal delay-4" id="wallets">
+            <div class="support-panel-head">
+              <div class="block-number">04</div>
+              <div>
+                <h2>Ways to support</h2>
+              </div>
+            </div>
+
+            <div class="wallet-picker" data-wallet-picker>
+              <div class="network-tabs" role="tablist" aria-label="Choose a network">
+                <button class="network-tab" type="button" role="tab" aria-selected="false" data-network="erc20">ERC20</button>
+                <button class="network-tab" type="button" role="tab" aria-selected="false" data-network="trc20">TRC20</button>
+                <button class="network-tab" type="button" role="tab" aria-selected="false" data-network="bep20">BEP20</button>
+                <button class="network-tab" type="button" role="tab" aria-selected="false" data-network="ton">TON</button>
+              </div>
+
+              <article class="wallet-display">
+                <div class="wallet-label">
+                  <div>
+                    <strong data-wallet-title>Network selection</strong>
+                  </div>
+                </div>
+                <div class="wallet-address is-hidden" data-wallet-address>Address will appear after selecting a network.</div>
+                <div class="wallet-qr-frame is-hidden" data-wallet-qr-frame>
+                  <div class="wallet-qr-grid" data-wallet-qr-grid></div>
+                  <div class="wallet-qr-placeholder">QR codes for mobile scanning.</div>
+                </div>
+              </article>
+
+              <div class="wallet-fallback">
+                <p class="wallet-fallback-note">If interactive selection is unavailable, all support details are shown below.</p>
+
+                <article class="wallet-fallback-item">
+                  <h3>Ethereum (ERC20)</h3>
+                  <p class="wallet-address">0x18269b0dafb71c1a66d8f93c61e55e5d3e991c4b</p>
+                  <div class="wallet-qr-grid">
+                    <div class="wallet-qr-card">
+                      <div class="wallet-qr-card-label">USDT</div>
+                      <img class="wallet-qr-image" src="Qrs/ERC20(USDT).JPG" alt="QR code for ERC20 USDT">
+                    </div>
+                    <div class="wallet-qr-card">
+                      <div class="wallet-qr-card-label">ETH</div>
+                      <img class="wallet-qr-image" src="Qrs/ERC20(ETH).JPG" alt="QR code for ERC20 ETH">
+                    </div>
+                  </div>
+                </article>
+
+                <article class="wallet-fallback-item">
+                  <h3>Tron (TRC20)</h3>
+                  <p class="wallet-address">TYYKMww4jR1xUvrg7LLM4Z9SQ5JCUnGkxW</p>
+                  <div class="wallet-qr-grid">
+                    <div class="wallet-qr-card">
+                      <div class="wallet-qr-card-label">USDT</div>
+                      <img class="wallet-qr-image" src="Qrs/TRC20(USDT).JPG" alt="QR code for TRC20 USDT">
+                    </div>
+                  </div>
+                </article>
+
+                <article class="wallet-fallback-item">
+                  <h3>BNB Smart Chain (BEP20)</h3>
+                  <p class="wallet-address">0x18269b0dafb71c1a66d8f93c61e55e5d3e991c4b</p>
+                  <div class="wallet-qr-grid">
+                    <div class="wallet-qr-card">
+                      <div class="wallet-qr-card-label">USDT</div>
+                      <img class="wallet-qr-image" src="Qrs/BEP20(USDT).JPG" alt="QR code for BEP20 USDT">
+                    </div>
+                    <div class="wallet-qr-card">
+                      <div class="wallet-qr-card-label">BTC</div>
+                      <img class="wallet-qr-image" src="Qrs/BEP20(BTC).JPG" alt="QR code for BEP20 BTC">
+                    </div>
+                  </div>
+                </article>
+
+                <article class="wallet-fallback-item">
+                  <h3>TON</h3>
+                  <p class="wallet-address">UQDsmV75bnid9qs92I5FPwEIOuhDCYuUWN2pCCvBvUKazvnr</p>
+                  <div class="wallet-qr-grid">
+                    <div class="wallet-qr-card">
+                      <div class="wallet-qr-card-label">TON</div>
+                      <img class="wallet-qr-image" src="Qrs/TON.png" alt="QR code for TON">
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
